@@ -191,10 +191,18 @@ body {
 }
 
 .r-box{
-    width: 50%;
+    width: 40%;
     box-sizing: border-box;
     padding: 30px;
     text-align: center;
+    box-shadow: 0px 0px 10px 1px #ffd7bb;
+}
+
+.r-box:first-child{
+    margin-right: 30px;
+}
+.r-box:last-child{
+    margin-left: 30px;
 }
 
 .r-box span{
